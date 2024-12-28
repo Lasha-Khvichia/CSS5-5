@@ -90,7 +90,7 @@ main {
   font-weight: 900;
 }
 .heading_p {
-  color: #7A7A7A;
+  color: #7a7a7a;
   font-weight: 500;
   line-height: 32px;
 }
@@ -262,7 +262,7 @@ main {
   font-weight: 900;
 }
 .sections_wrapper_heading {
-  color: #7A7A7A; 
+  color: #7a7a7a;
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
@@ -273,7 +273,7 @@ main {
   line-height: 28px;
 }
 .section_item_span {
-  color: #7A7A7A;
+  color: #7a7a7a;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -291,7 +291,8 @@ main {
   align-items: flex-start;
   gap: 12px;
 }
-.txt_area::after, .txt_area::before {
+.txt_area::after,
+.txt_area::before {
   content: url(./images/doubleCout.svg);
 }
 .txt_area::after {
@@ -305,10 +306,10 @@ main {
   gap: 8px;
 }
 .special_border {
-  border-left: 2px solid #00FF1A;
+  border-left: 2px solid #00ff1a;
 }
 .ordinary_border {
-  border-left: 2px solid #4A4A4E;
+  border-left: 2px solid #4a4a4e;
 }
 .fifth_cont {
   display: flex;
@@ -340,7 +341,7 @@ main {
   font-weight: 500;
 }
 .location {
-  color: #7A7A7A;
+  color: #7a7a7a;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
@@ -363,7 +364,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   padding: 24px 32px;
-  background-color: #1C1C20;
+  background-color: #1c1c20;
 }
 .comment_content_section {
   display: flex;
@@ -404,10 +405,10 @@ main {
   gap: 12px;
 }
 .green_one {
-  color: #00FF1A;
+  color: #00ff1a;
 }
 .comment_p {
-  color: #B7B7B7;
+  color: #b7b7b7;
   font-family: Inter;
   font-size: 22px;
   font-style: italic;
@@ -419,12 +420,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background-color: #1C1C20;
+  background-color: #1c1c20;
 }
 .number_wrapper::before {
   content: url(./images/phone.svg);
   border-radius: 50px;
-  background-color: #00FF1A;
+  background-color: #00ff1a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -436,7 +437,7 @@ main {
 .number_wrapper {
   display: flex;
   gap: 12px;
-  align-items: center ;
+  align-items: center;
 }
 .rate_wrapper_heading {
   font-size: 24px;
@@ -444,7 +445,7 @@ main {
   text-transform: uppercase;
 }
 .rate_wrapper_p {
-  color: #B7B7B7;
+  color: #b7b7b7;
   font-size: 22px;
   font-style: italic;
   line-height: 29.925px;
@@ -469,7 +470,7 @@ main {
   justify-content: center;
   gap: 24px;
   padding: 24px 32px;
-  background-color: #1C1C20;
+  background-color: #1c1c20;
   max-width: 392px;
   width: 100%;
 }
@@ -485,7 +486,7 @@ main {
   padding: 12px 16px;
 }
 .same_font {
-  color: #7A7A7A;
+  color: #7a7a7a;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -499,7 +500,8 @@ textarea {
   font-weight: 500;
   line-height: 24px;
 }
-.arrows_wrapper::before, .arrows_wrapper::after {
+.arrows_wrapper::before,
+.arrows_wrapper::after {
   content: url(./images/arrow.svg);
   box-sizing: border-box;
   padding: 8px;
@@ -509,11 +511,11 @@ textarea {
 .arrows_wrapper::before {
   rotate: 180deg;
   border-radius: 50px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 .arrows_wrapper::after {
   border-radius: 50px;
-  background-color: #00FF1A;
+  background-color: #00ff1a;
 }
 .arrows_wrapper {
   display: flex;
@@ -521,7 +523,7 @@ textarea {
   gap: 16px;
 }
 #submit {
-  background-color: #00FF1A;
+  background-color: #00ff1a;
   color: #000;
   font-size: 16px;
   font-weight: 500;
@@ -535,7 +537,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid #00FF1A;
+  border-top: 1px solid #00ff1a;
 }
 .footer_wrapper {
   display: flex;
@@ -550,17 +552,20 @@ footer {
 .social_wrapper3::before {
   content: url(./images/facebook.svg);
 }
-.company_list, .comunity_list {
+.company_list,
+.comunity_list {
   display: flex;
   flex-direction: column;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
 }
-.company_list > span, .comunity_list > span {
-  color: #7A7A7A;
+.company_list > span,
+.comunity_list > span {
+  color: #7a7a7a;
 }
-.company_list > span:first-child, .comunity_list > span:first-child {
+.company_list > span:first-child,
+.comunity_list > span:first-child {
   color: #fff;
 }
 .social {
