@@ -331,7 +331,9 @@ main {
 }
 .sixth_cont {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 .user_name {
   font-size: 16px;
