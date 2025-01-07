@@ -74,6 +74,10 @@ main {
   gap: 151px;
   flex-wrap: wrap;
 }
+.frog_with_sunglasses {
+  max-width: 451px;
+  width: 100%;
+}
 .heading_div {
   max-width: 564px;
   width: 100%;
@@ -319,6 +323,8 @@ main {
 }
 .fifth_cont_img {
   align-self: flex-start;
+  max-width: 509px;
+  width: 100%;
 }
 .sections_wrapper {
   display: flex;
